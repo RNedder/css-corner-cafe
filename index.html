@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <title>CSS Practice: CSS Corner Cafe</title>
+    <link rel="stylesheet" href="css\cafe.css" />
+</head>
+<body>
+    <h1>CSS Corner Cafe</h1>
+    <section id="menu">
+        <h2>Menu</h2>
+        <table class="white-background">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Cost</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Coffee</td>
+                    <td class="price">$2</td>
+                </tr>
+                <tr>
+                    <td>Tea</td>
+                    <td class="price">$1.50</td>
+                </tr>
+                <tr>
+                    <td>Chicken & Waffles</td>
+                    <td class="price">$12</td>
+                </tr>
+                <tr>
+                    <td>Blueberry Pancakes</td>
+                    <td class="price">$6</td>
+                </tr>
+                <tr>
+                    <td>Chocolate Chip Pancakes</td>
+                    <td class="price">$5.50</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <section id="review">
+        <h2>Submit Your Review</h2>
+        <form class="white-background" class="center" action="https://us-central1-nucamp-production.cloudfunctions.net/post/formdata" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" />
+            <label for="rating">Your Rating:</label>
+            1 <input type="range" id="rating" name="rating" min="1" max="5" /> 5
+            <input type="submit" id="submit-btn" />
+            <label for="favorite-item">Choose Your Favorite Item</label>
+            <select name="favorite-item" id="favorite-item">
+                <option disabled selected>Choose an option...</option>
+                <option value="coffee">Coffee</option>
+                <option value="tea">Tea</option>
+                <option value="chicken-waffles">Chicken & Waffles</option>
+                <option value="blueberry-pancake">Blueberry Pancakes</option>
+                <option value="choc-chip-pancake">Chocolate Chip Pancakes</option>
+            </select>
+        </form>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <section class="white-background">
+            <p>Call us at: <a href="tel:+15555551212">1-555-555-1212</a></p>
+            <address>
+                CSS Corner Cafe<br />
+                101 W Main St<br />
+                Bellevue, WA 98004
+            </address>
+        </section>
+    </section>
+</body>
+</html>
+
