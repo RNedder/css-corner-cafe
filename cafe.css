@@ -1,3 +1,4 @@
+/*BACKGROUND*/
 html {
     background-image: url(../images/cafe.jpg);
     background-position: center;
@@ -7,6 +8,7 @@ html {
     text-align: center;
 }
 
+/*REVIEW FORM*/
 label {
     display: block;
 }
@@ -29,6 +31,7 @@ h1 {
 
 .white-background {
     border-radius: 25px;
+    border: solid 3px rgb(24, 71, 44);
     background-color: white;
     opacity: 80%;
     margin: 10px;
