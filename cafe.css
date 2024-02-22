@@ -1,0 +1,39 @@
+html {
+    background-image: url(../images/cafe.jpg);
+    background-position: center;
+    height: 100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-align: center;
+}
+
+label {
+    display: block;
+}
+
+th {
+    text-align: 
+}
+
+form {
+    width: 15%;
+    margin: 0px;
+    padding: 10px;
+}
+
+h1 {
+    color: rgb(38, 59, 11);
+    font-size: 50px;
+    font-family:
+}
+
+.white-background {
+    border-radius: 25px;
+    background-color: white;
+    opacity: 80%;
+    margin: 10px;
+    padding: 20px;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
